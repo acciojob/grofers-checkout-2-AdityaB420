@@ -5,7 +5,7 @@ const grandTotal = document.querySelector('[data-ns-test="grandTotal"]');
 let total = 0;
 
 prices.forEach(price => {
-  total += parseFloat(price.textContent);
+  total += parseInt(price.textContent);
 });
 
 grandTotal.textContent = total.toFixed(2);
