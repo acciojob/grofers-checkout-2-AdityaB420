@@ -1,2 +1,6 @@
 
 /* Your CSS Code here. */
+table{
+	border: 1px solid black;
+	width:100%;
+}
